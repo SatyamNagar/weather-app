@@ -199,7 +199,7 @@
     padding: 0;
     margin: 15px 35px 10px 35px;
     -webkit-box-shadow: 0 0 50px 1px rgba(0, 0, 0, 1);
-    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 50px -10px rgba(0, 0, 0, .45);
     border-radius: 10px;
 }
 
