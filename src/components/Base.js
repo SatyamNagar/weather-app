@@ -56,11 +56,9 @@ export default function Base() {
 
   return (
     <div className='homeBody'>
-
-      {/* <Loader /> */}
+      
       {appLoader !== 2 && <Loader />}
       <WeatherCard setAppLoader={setAppLoader} setLocationQuery={setLocationQuery} setweatherApiData={setweatherApiData} weatherApiData={weatherApiData} weatherApiForecastData={weatherApiForecastData} />
-
 
     </div>
   )

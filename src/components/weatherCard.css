@@ -295,12 +295,20 @@
     margin-right: 5px;
 }
 
+/* Socials.js File */
+.social-anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 780px) {
 
-    .weathercard-body{
+    .weathercard-body {
         padding: 5vh 0;
     }
-    .main-container{
+
+    .main-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -309,18 +317,18 @@
         width: 85vw;
     }
 
-    .weather-side{
+    .weather-side {
         width: 100%;
         height: 350px;
         float: none;
     }
 
-    .info-side{
+    .info-side {
         float: none;
         height: fit-content;
     }
 
-    .week-list{
+    .week-list {
         display: flex;
         justify-content: center;
         align-items: center;

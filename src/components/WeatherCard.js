@@ -1,6 +1,7 @@
 import React from 'react'
 import './weatherCard.css'
 import WeatherSearch from './WeatherSearch';
+import Socials from './Socials';
 
 export default function WeatherCard({ weatherApiData, setLocationQuery, weatherApiForecastData, setAppLoader, setweatherApiData }) {
 
@@ -137,6 +138,8 @@ export default function WeatherCard({ weatherApiData, setLocationQuery, weatherA
                     </div>
                 </div>
             </>}
+
+            <Socials />
         </div>
     )
 }
