@@ -34,10 +34,10 @@ export default function WeatherCard({ weatherApiData, setLocationQuery, weatherA
     return (
         <div className='weathercard-body'>
             {weatherApiForecastData && <>
-                <img onLoad={() => { setAppLoader(prevState => prevState + 1) }} className='wcard-wallpaper' src="https://source.unsplash.com/random/1080x720/?wallpaper,landscape" alt="wallpaper" />
+                <img onLoad={() => { setAppLoader(prevState => prevState + 1) }} className='wcard-wallpaper' src={require('../images/bg-main.jpg')} alt="wallpaper" />
                 <div className="main-container">
                     <div className="weather-side">
-                        <img className='weather-side-img' onLoad={() => { setAppLoader(prevState => prevState + 1) }} src="https://source.unsplash.com/random/306x510/?wallpaper,landscape" alt="icon" />
+                        <img className='weather-side-img' onLoad={() => { setAppLoader(prevState => prevState + 1) }} src={require('../images/bg-side.jpg')} alt="icon" />
                         <div className="weather-gradient"></div>
                         <div className="date-container">
 
